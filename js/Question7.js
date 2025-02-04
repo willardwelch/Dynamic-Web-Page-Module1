@@ -1,3 +1,6 @@
+const selectcombo=document.getElementById("weekd");
+selectcombo.addEventListener("change", getweekDays);
+
 function getweekDays()
 {
   

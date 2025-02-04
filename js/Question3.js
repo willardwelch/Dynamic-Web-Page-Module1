@@ -1,3 +1,7 @@
+
+const getbtn3=document.getElementById("btn3");
+getbtn3.addEventListener("click", setEffect);
+
 function setEffect()
 {
    let bordercolor=document.getElementById("txtColor").value;

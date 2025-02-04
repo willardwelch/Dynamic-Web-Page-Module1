@@ -1,4 +1,21 @@
+table {
+  width:300px;
+  padding: 3PX;
+  border-color: blue;
+  
 
+}
+
+i{
+  color:blue;
+  font-size:smaller;
+}
+button {
+background-color: blue;
+border-radius: 3px;
+color: white;
+
+}
 p:hover {
   color: red;
   
@@ -12,6 +29,7 @@ p:hover {
     top: 0;
     left: 100%;
     margin-top: -1px;
+    border-color: blue;
   }
 
   #displayStyle {

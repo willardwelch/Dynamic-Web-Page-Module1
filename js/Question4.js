@@ -1,3 +1,7 @@
+
+const getbtn4=document.getElementById("btn4");
+getbtn4.addEventListener("click", addParagraph);
+
 function addParagraph()
 {
 
@@ -12,7 +16,8 @@ const para = document.createElement("p");
 const node = document.createTextNode(parText);
 para.appendChild(node);
 
-const element = document.getElementById("javascript");
+const element = document.getElementById("javascript1");
 element.appendChild(para);
+document.getElementById("txtpara").value="";
 
 }

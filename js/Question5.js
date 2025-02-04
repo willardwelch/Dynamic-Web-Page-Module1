@@ -1,3 +1,7 @@
+
+const getbtn5=document.getElementById("btn5");
+getbtn5.addEventListener("click", changeBackGround);
+
 function changeBackGround()
 {
 

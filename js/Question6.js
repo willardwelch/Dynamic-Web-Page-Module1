@@ -1,3 +1,8 @@
+
+
+const getbtn6=document.getElementById("btn6");
+getbtn6.addEventListener("click", changeDivColor);
+
 function changeDivColor()
 {
 

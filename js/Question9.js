@@ -1,6 +1,12 @@
 
-function getCSS(element) {
-    
+const sylediv=document.getElementById("btn9");
+sylediv.addEventListener("click", getCSS);
+
+
+
+function getCSS() {
+
+    const element=document.getElementById("displayStyle");
     let css_data = '';
     let css_obj = getComputedStyle(element);
 
