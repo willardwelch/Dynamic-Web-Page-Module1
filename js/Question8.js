@@ -3,6 +3,5 @@ changethisimage.addEventListener("load", loadImage);
 
 function loadImage()
 {
-    
- document.getElementById("image").src="images/mountain.jpg";
+   document.getElementById("image").src="images/mountain.jpg";
 }

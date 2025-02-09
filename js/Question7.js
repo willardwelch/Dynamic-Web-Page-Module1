@@ -1,6 +1,14 @@
 const selectcombo=document.getElementById("weekd");
 selectcombo.addEventListener("change", getweekDays);
 
+const selectcombo1=document.getElementById("weekd");
+selectcombo1.addEventListener("mouseover", changeMousePointer);
+
+function changeMousePointer()
+{
+      document.getElementById("weekd").style.cursor="pointer";
+}
+
 function getweekDays()
 {
   
@@ -37,3 +45,4 @@ let weekday=document.getElementById("weekd").value;
     }
 
 }
+
