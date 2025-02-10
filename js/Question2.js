@@ -15,7 +15,7 @@ function getUserInfo(){
         
           FirstName = prompt("Please enter First Name");
         }
-       else if(LastName=="")
+       else if(LastName=="" )
           {
           
             LastName = prompt("Please enter Last Name");
