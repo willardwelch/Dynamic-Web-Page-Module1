@@ -3,7 +3,6 @@
 
 
 const getbtn=document.getElementById("btn1");
-
 getbtn.addEventListener("click", AddTwoNumbers);
 
 
@@ -17,11 +16,11 @@ function AddTwoNumbers(){
   let sum= (parseInt(x)+parseInt(y));
 
   document.getElementById("demo").innerHTML = "The sum is: "+sum;
+  ocument.getElementById("demo").innerHTML.style.fontWeight = Bold;
+//  dontDisplayforms();
 
-  dontDisplayforms();
-
-  document.getElementById("Question1").style.display = 'block';
-  document.getElementById("Question1").style.font.bold;
+//  document.getElementById("Question1").style = 'block';
+ 
 
   }
 
