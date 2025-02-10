@@ -1,3 +1,6 @@
+const getbtn=document.getElementById("select");
+
+getbtn.addEventListener("change", dontDisplayforms);
 
 
 
